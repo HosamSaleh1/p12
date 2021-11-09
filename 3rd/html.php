@@ -27,9 +27,9 @@ $select .= "</select>";
   <body>
       <select name="" id="" class="form-control">
         <?php 
-        // foreach($gender AS $key=>$value) { 
-        //     echo "<option value='$key'> $value </option>";
-        //  } 
+            foreach($gender AS $key=>$value) { 
+                echo "<option value='$key'> $value </option>";
+            } 
          ?>
          <?php 
             // foreach ($gender as $key => $value) {
